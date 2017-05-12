@@ -10,7 +10,7 @@ var sum_tests_uint32 = []struct {
 }{
 	{1, 4, 5},
 	{4, 5, 9},
-	{126, 1, 127},
+	{128, -1, 127},
 }
 
 func TestSumuint32(t *testing.T) {
