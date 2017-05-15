@@ -10,7 +10,7 @@ var sum_tests_float64 = []struct {
 }{
 	{1, 2, 3},
 	{4, -5, -1},
-	{126.5, 1.5, 128},
+	{126.5, 0, 126.5},
 }
 
 func TestSumfloat64(t *testing.T) {
