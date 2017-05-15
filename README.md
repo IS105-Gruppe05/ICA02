@@ -6,4 +6,4 @@ I denne oppgaven har alle bidratt. Ikke alle jobber på hver sin maskin, vi jobb
 
 
 
-![Alt Text](file:///C:/Users/nilsf/Pictures/oppg%205%20main%20boring%20and%20goroutine.png)
+![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%202/Skjermbilde%202017-05-12%20kl.%2013.35.36.png?raw=trueg)
