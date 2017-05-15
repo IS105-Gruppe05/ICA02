@@ -5,7 +5,7 @@
 I denne oppgaven har alle bidratt. Ikke alle jobber på hver sin maskin, vi jobber av og til bare på noen av pcene og det er da de som laster opp det som er gjort. Derfor kan det vise at det er bare 5/8 som har lastet opp noe. 
 
 
-Oppgave 1:
+## Oppgave 1:
 
 Specs ligger inne i docs (linken under).
 https://docs.google.com/spreadsheets/d/1TUlQXl-SlkGzoc0ZrM6NQQLayWV9iOdv5WyQhnWOXKE/edit#gid=0 
@@ -23,19 +23,32 @@ Prosesser:
 Både linux serveren, windows og mac varierer prosessene som kjøres. Når du starter et program i windows vil nødvendige prosesser bli tatt i bruk. Under oppstart av et program vil flere prosesser bli brukt, for så å gå i idle tilstand igjen. Det varierer dog hvor mange prosesser hvert system benytter for programmer. Når det gjelder linux serveren virker den å være mer stabil enn windows, men varierer fremdeles litt.
 
 
-Oppgave 2:
+## Oppgave 2:
 
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%202/Skjermbilde%202017-05-12%20kl.%2013.35.36.png?raw=trueg)
 
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%202/Skjermbilde%202017-05-12%20kl.%2013.36.28.png)
 
 Viser her at vi kan kjøre hello.exe på windows.
+```
+Kjør med "go run Hello.go"
+```
 
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%202/cmd%20windows.png)
 
 
 
-Oppgave 3:
+## Oppgave 3:
+I oppgave 3 er det laget to mapper for test. Sum_fail hvor alle testene feiler, og sum hvor alle testene godkjennes.
+For å kjøre en test må du være lokalisert i mappen sum_fail / sum.
+```
+go test
+```
+For å kjøre "kalkulatoren" hvor vi legger sammen to tall av int 64.
+```
+go run main_sum.go
+```
+
 
 Vi lagde Sum funksjoner for de forskjellige numeriske typene i golang (int8, int32, int64, float64 og uint32). Deretter lagde vi tilsvarende tester (sumType_test.go) for de forskjellige typene og lagde en rekkevidde av tall for hver type, som vi skulle teste.
 
@@ -48,7 +61,12 @@ I main_sum.go lagde vi et program som aksepterer 2 int64 parametere og regner ut
 En mulig løsning for å gjøre pakken “sum” trygg og brukervennlig vil være å f.eks vise til at man kun kan bruke positive tall som en feilmelding hvis de prøver å skrive negative tall for typen uint32. Samt produsere logiske feilmeldinger til bruker.
 
 
-Oppgave 4:
+## Oppgave 4:
+
+For å kjøre benchmark må du være lokalisert i mappen oppgave4.
+```
+go test -bench=.
+```
 
 Big O, er en måte å måle hvor effektiv en algoritme er og hvor godt den skalerer I forhold til størrelsen på innholdet. Det er vanlig å se bort fra best case, og heller fokusere på worst case noe vi også gjør I denne oppgaven.
 
@@ -61,7 +79,15 @@ Bilde over benchmark fra bubblesort funksjonene.
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%204/18450035_444169509276108_1144329361_n.png)
 
 
-Oppgave 5:
+## Oppgave 5:
+For å kjøre alle filene må det benyttes tre terminaler. Lokalt på maskinen benytte "top / ps" for å se prosessene. På Ubuntu serveren er det brukt "htop".
+```
+go run boring_main.go
+```
+```
+main_boring_goroutine.go
+```
+
 
 Vi fant ut at boring_main.go programmet opptok 5 tråder på Mac og 4 på Ubuntu. Programmet var en “running process”, dvs. at programmet kjørte i realtime.
 Du stopper prosessen med å trykke: ctrl + C. 
