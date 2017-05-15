@@ -33,6 +33,7 @@ Viser her at vi kan kjøre hello.exe på windows.
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%202/cmd%20windows.png)
 
 
+
 Oppgave 3:
 
 Vi lagde Sum funksjoner for de forskjellige numeriske typene i golang (int8, int32, int64, float64 og uint32). Deretter lagde vi tilsvarende tester (sumType_test.go) for de forskjellige typene og lagde en rekkevidde av tall for hver type, som vi skulle teste.
