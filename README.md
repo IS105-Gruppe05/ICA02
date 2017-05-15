@@ -30,6 +30,7 @@ Oppgave 2:
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%202/Skjermbilde%202017-05-12%20kl.%2013.36.28.png)
 
 Viser her at vi kan kjøre hello.exe på windows.
+
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%202/cmd%20windows.png)
 
 
@@ -72,7 +73,8 @@ Bilder av tråder når vi kjører både boring_main og main_boring_goroutine:
 mac:
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%205/Skjermbilde%202017-05-15%20kl.%2011.34.14.png)
 
-Windows:"\n"
+Windows:
+
 ![Alt Text](https://github.com/IS105-Gruppe05/ICA02/blob/master/bilder/Oppgave%205/18492732_120332000804713234_240020223_n.png)
 
 Ubuntu server:
