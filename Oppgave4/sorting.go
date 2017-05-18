@@ -1,8 +1,7 @@
 package algorithms
 
-// Les https://en.wikipedia.org/wiki/Bubble_sort
 func Bubble_sort_modified(list []int) {
-	// find the length of list n
+
 	n := len(list)
 	for i := 0; i < n; i++ {
 		for j := 0; j < n-j; j++ {
@@ -29,9 +28,8 @@ func Bubble_sort_mod2(list []int) {
 	}
 }
 
-// Implementering av Bubble_sort algoritmen
 func Bubble_sort(list []int) {
-	// find the length of list n
+	// finner lengden av listen n
 	n := len(list)
 	for i := 0; i < n; i++ {
 		for j := 0; j < n-1; j++ {

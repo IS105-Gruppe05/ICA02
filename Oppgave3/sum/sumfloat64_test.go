@@ -2,7 +2,7 @@ package sum
 
 import "testing"
 
-// Check https://golang.org/ref/spec#Numeric_types and stress the limits!
+
 var sum_tests_float64 = []struct {
 	n1       float64
 	n2       float64

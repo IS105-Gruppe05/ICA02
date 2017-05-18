@@ -7,7 +7,6 @@ import (
 	"time"
 )
 
-// https://golang.org/doc/effective_go.html#init
 func init() {
 	seed := time.Now().Unix()
 	rand.Seed(seed)
@@ -20,8 +19,6 @@ func perm(n int) (out []int) {
 	return
 }
 
-// Skriv "benchmark"-tester for benchmarkBSortModified funksjonen
-// Skriv en ny testfunksjon benchmarkBSortModified
 
 func BenchmarkBSortM100(b *testing.B) {
 	benchmarkBSortM(100, b)
@@ -86,7 +83,6 @@ func benchmarkBSort(i int, b *testing.B) {
 	}
 }
 
-// Implementasjon av testfunksjoner for Quicksort algoritmen
 func TestQSort(t *testing.T) {
 	values := []int{9, 1, 20, 3, 6, 7}
 	expected := []int{1, 3, 6, 7, 9, 20}

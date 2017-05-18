@@ -2,7 +2,7 @@ package sum
 
 import "testing"
 
-// Check https://golang.org/ref/spec#Numeric_types and stress the limits!
+
 var sum_tests_uint32 = []struct {
 	n1       uint32
 	n2       uint32
